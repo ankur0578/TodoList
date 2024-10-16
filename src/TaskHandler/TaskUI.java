@@ -12,7 +12,7 @@ public class TaskUI {
     }
 
     public void addTask(){
-        System.out.println("enter task description");
+        System.out.println("enter task description ");
         String description = scanner.nextLine();
         taskManager.addTask(description);
     }
